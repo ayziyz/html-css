@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../assets/fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+section {
+  display: flex;
+  justify-content: center;
+  padding: 64px 32px 64px;
+  background-color: var(--clr-accent);
+}
+.home-wrapper {
+  max-width: 1000px;
+  text-align: center;
+}
+.home-title {
+  font-size: 32px;
+  font-family: 'RobotoBold', sans-serif;
+}
+.home-img {
+  height: 400px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  object-fit: cover;
+  object-position: center;
+  background-color: #242424;
+}
+.home-desc {
+  font-weight: 300;
+  font-family: 'RobotoLight', sans-serif;
+}
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 170px; 
+  height: auto; 
+  margin-right: 10px; 
+  transition: transform 0.3s; 
+}
+.footer {
+  background-color:var(--clr-accent);
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 32px;
+  bottom: 0;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-content a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.social-links a {
+  margin: 0 5px;
+  font-size: 14px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'RobotoLight', sans-serif;
+  font-weight: 300; 
+}
+
+h1, h2, h3 {
+  font-family: 'RobotoBold', sans-serif;
+}
+
+.footer-content p {
+  font-family: 'RobotoLight', sans-serif;
+  font-weight: 100;
+}
+.social-links {
+  margin-top: 8px;
+  font-size: 14px;
+}
+.footer a:hover {
+  color: blue;
+}

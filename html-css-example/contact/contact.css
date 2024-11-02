@@ -1,0 +1,50 @@
+section {
+  display: flex;
+  justify-content: center;
+  padding: 16px 32px;
+}
+.contact-wrapper {
+  max-width: 1000px;
+  width: 1000px;
+}
+.contact-title {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'RobotoBold', sans-serif;
+}
+.contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 64px;
+  padding: 16px 0;
+  transition: transform 0.3s ease;
+}
+.contact-detail p {
+  line-height: 1.2;
+  font-family: 'RobotoLight', sans-serif;
+  transition: color 0.3s ease;
+  transition: transform 0.3s ease;
+}
+.contact-img {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  object-position: center center;
+  border-radius: 32px;
+  background-color: #242424;
+  transition: transform 0.3s ease;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif; 
+}
+.visit-us{
+  font-family: 'RobotoBold', sans-serif;
+}
+.contacts:hover .contact-img {
+  transform: scale(1.1); 
+}
+
+.contacts:hover .contact-detail p {
+  color: blue;
+}
